@@ -258,7 +258,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 
@@ -275,6 +275,9 @@ a:focus {
     -o-background-size: cover;
 }
 
+.contact-section {
+    margin-top: 60px;}
+
 #map {
     width: 100%;
     height: 200px;
@@ -283,7 +286,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 150px;
+        padding-top: 0;
     }
 
     .download-section {
@@ -295,7 +298,8 @@ a:focus {
         margin-top: 250px;
     }
     .contact-section {
-    margin-bottom: 300px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 }
 
@@ -316,7 +320,7 @@ a:focus {
 }
 
 .btn-primary {
-    color: #000;
+    color: #fff;
     background-color: #ff0099;
 }
 
